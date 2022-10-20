@@ -1,11 +1,10 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import { CalculadoraScreen } from './src/screens/CalculadoraScreen';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hola que tal</Text>
-    </View>
+    <CalculadoraScreen />
   );
 };
 
